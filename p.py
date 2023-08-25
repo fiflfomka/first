@@ -8,3 +8,4 @@ sums = l.copy()
 for i in range(2,N+2):
 	sums[i] = max( l[i-1], l[i-2] ) + l[i]
 print(sums[-1])
+print("KILOL")
